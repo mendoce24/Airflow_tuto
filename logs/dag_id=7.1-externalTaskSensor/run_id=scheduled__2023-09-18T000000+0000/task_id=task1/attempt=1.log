@@ -1,0 +1,17 @@
+[2023-09-19T12:47:26.490+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 7.1-externalTaskSensor.task1 scheduled__2023-09-18T00:00:00+00:00 [queued]>
+[2023-09-19T12:47:26.504+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 7.1-externalTaskSensor.task1 scheduled__2023-09-18T00:00:00+00:00 [queued]>
+[2023-09-19T12:47:26.505+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-19T12:47:26.524+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): task1> on 2023-09-18 00:00:00+00:00
+[2023-09-19T12:47:26.529+0000] {standard_task_runner.py:57} INFO - Started process 772 to run task
+[2023-09-19T12:47:26.533+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '7.1-externalTaskSensor', 'task1', 'scheduled__2023-09-18T00:00:00+00:00', '--job-id', '585', '--raw', '--subdir', 'DAGS_FOLDER/7.1-ExternalTaskSensor.py', '--cfg-path', '/tmp/tmpev2zl2mo']
+[2023-09-19T12:47:26.535+0000] {standard_task_runner.py:85} INFO - Job 585: Subtask task1
+[2023-09-19T12:47:26.590+0000] {task_command.py:415} INFO - Running <TaskInstance: 7.1-externalTaskSensor.task1 scheduled__2023-09-18T00:00:00+00:00 [running]> on host e891a57bf0af
+[2023-09-19T12:47:26.688+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='7.1-externalTaskSensor' AIRFLOW_CTX_TASK_ID='task1' AIRFLOW_CTX_EXECUTION_DATE='2023-09-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-18T00:00:00+00:00'
+[2023-09-19T12:47:26.690+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-19T12:47:26.691+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "sleep 10 && echo 'DAG finalizado!'"]
+[2023-09-19T12:47:26.703+0000] {subprocess.py:86} INFO - Output:
+[2023-09-19T12:47:36.708+0000] {subprocess.py:93} INFO - DAG finalizado!
+[2023-09-19T12:47:36.709+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-19T12:47:36.735+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=7.1-externalTaskSensor, task_id=task1, execution_date=20230918T000000, start_date=20230919T124726, end_date=20230919T124736
+[2023-09-19T12:47:36.774+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-19T12:47:36.789+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

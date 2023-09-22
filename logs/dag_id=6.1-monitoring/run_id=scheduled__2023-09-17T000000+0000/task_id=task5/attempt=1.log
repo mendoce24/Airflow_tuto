@@ -1,0 +1,17 @@
+[2023-09-18T13:55:33.529+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 6.1-monitoring.task5 scheduled__2023-09-17T00:00:00+00:00 [queued]>
+[2023-09-18T13:55:33.541+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 6.1-monitoring.task5 scheduled__2023-09-17T00:00:00+00:00 [queued]>
+[2023-09-18T13:55:33.541+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-18T13:55:33.558+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): task5> on 2023-09-17 00:00:00+00:00
+[2023-09-18T13:55:33.564+0000] {standard_task_runner.py:57} INFO - Started process 5375 to run task
+[2023-09-18T13:55:33.567+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '6.1-monitoring', 'task5', 'scheduled__2023-09-17T00:00:00+00:00', '--job-id', '479', '--raw', '--subdir', 'DAGS_FOLDER/6.1-monitoring.py', '--cfg-path', '/tmp/tmp2mvliqpt']
+[2023-09-18T13:55:33.569+0000] {standard_task_runner.py:85} INFO - Job 479: Subtask task5
+[2023-09-18T13:55:33.626+0000] {task_command.py:415} INFO - Running <TaskInstance: 6.1-monitoring.task5 scheduled__2023-09-17T00:00:00+00:00 [running]> on host e891a57bf0af
+[2023-09-18T13:55:33.727+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='6.1-monitoring' AIRFLOW_CTX_TASK_ID='task5' AIRFLOW_CTX_EXECUTION_DATE='2023-09-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-17T00:00:00+00:00'
+[2023-09-18T13:55:33.729+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-18T13:55:33.730+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "sleep 2 && echo 'Task 5'"]
+[2023-09-18T13:55:33.741+0000] {subprocess.py:86} INFO - Output:
+[2023-09-18T13:55:35.745+0000] {subprocess.py:93} INFO - Task 5
+[2023-09-18T13:55:35.746+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-18T13:55:35.778+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=6.1-monitoring, task_id=task5, execution_date=20230917T000000, start_date=20230918T135533, end_date=20230918T135535
+[2023-09-18T13:55:35.839+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-18T13:55:35.857+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,34 @@
+[2023-09-18T13:02:45.986+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 5.1-orchestration.task2 scheduled__2023-09-01T00:00:00+00:00 [queued]>
+[2023-09-18T13:02:45.997+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 5.1-orchestration.task2 scheduled__2023-09-01T00:00:00+00:00 [queued]>
+[2023-09-18T13:02:45.999+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-18T13:02:46.014+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): task2> on 2023-09-01 00:00:00+00:00
+[2023-09-18T13:02:46.020+0000] {standard_task_runner.py:57} INFO - Started process 2953 to run task
+[2023-09-18T13:02:46.023+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '5.1-orchestration', 'task2', 'scheduled__2023-09-01T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/5.1-orchestration.py', '--cfg-path', '/tmp/tmpm4c_zlpt']
+[2023-09-18T13:02:46.025+0000] {standard_task_runner.py:85} INFO - Job 38: Subtask task2
+[2023-09-18T13:02:46.075+0000] {task_command.py:415} INFO - Running <TaskInstance: 5.1-orchestration.task2 scheduled__2023-09-01T00:00:00+00:00 [running]> on host e891a57bf0af
+[2023-09-18T13:02:46.166+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='5.1-orchestration' AIRFLOW_CTX_TASK_ID='task2' AIRFLOW_CTX_EXECUTION_DATE='2023-09-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-01T00:00:00+00:00'
+[2023-09-18T13:02:46.169+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-18T13:02:46.170+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "sleep 2 && echo 'Task 2'"]
+[2023-09-18T13:02:46.180+0000] {subprocess.py:86} INFO - Output:
+[2023-09-18T13:02:48.184+0000] {subprocess.py:93} INFO - Task 2
+[2023-09-18T13:02:48.185+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-18T13:02:48.210+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=5.1-orchestration, task_id=task2, execution_date=20230901T000000, start_date=20230918T130245, end_date=20230918T130248
+[2023-09-18T13:02:48.246+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-18T13:02:48.273+0000] {taskinstance.py:2776} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2023-09-18T13:22:35.285+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 5.1-orchestration.task2 scheduled__2023-09-01T00:00:00+00:00 [queued]>
+[2023-09-18T13:22:35.397+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 5.1-orchestration.task2 scheduled__2023-09-01T00:00:00+00:00 [queued]>
+[2023-09-18T13:22:35.398+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-18T13:22:35.419+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): task2> on 2023-09-01 00:00:00+00:00
+[2023-09-18T13:22:35.425+0000] {standard_task_runner.py:57} INFO - Started process 3540 to run task
+[2023-09-18T13:22:35.428+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '5.1-orchestration', 'task2', 'scheduled__2023-09-01T00:00:00+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/5.1-orchestration.py', '--cfg-path', '/tmp/tmpuke2_noa']
+[2023-09-18T13:22:35.430+0000] {standard_task_runner.py:85} INFO - Job 110: Subtask task2
+[2023-09-18T13:22:35.482+0000] {task_command.py:415} INFO - Running <TaskInstance: 5.1-orchestration.task2 scheduled__2023-09-01T00:00:00+00:00 [running]> on host e891a57bf0af
+[2023-09-18T13:22:35.574+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='5.1-orchestration' AIRFLOW_CTX_TASK_ID='task2' AIRFLOW_CTX_EXECUTION_DATE='2023-09-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-01T00:00:00+00:00'
+[2023-09-18T13:22:35.577+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-18T13:22:35.578+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "sleep 2 && echo 'Task 2'"]
+[2023-09-18T13:22:35.588+0000] {subprocess.py:86} INFO - Output:
+[2023-09-18T13:22:37.594+0000] {subprocess.py:93} INFO - Task 2
+[2023-09-18T13:22:37.595+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-18T13:22:37.621+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=5.1-orchestration, task_id=task2, execution_date=20230901T000000, start_date=20230918T132235, end_date=20230918T132237
+[2023-09-18T13:22:37.659+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-18T13:22:37.684+0000] {taskinstance.py:2776} INFO - 2 downstream tasks scheduled from follow-on schedule check

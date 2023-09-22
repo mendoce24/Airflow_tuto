@@ -1,0 +1,8 @@
+[2023-09-18T13:37:37.320+0000] {processor.py:157} INFO - Started process (PID=5378) to work on /opt/airflow/dags/5.3-orchestration copy.py
+[2023-09-18T13:37:37.321+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/5.3-orchestration copy.py for tasks to queue
+[2023-09-18T13:37:37.322+0000] {logging_mixin.py:151} INFO - [2023-09-18T13:37:37.322+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/5.3-orchestration copy.py
+[2023-09-18T13:37:37.363+0000] {processor.py:839} INFO - DAG(s) dict_keys(['5.3-orchestration']) retrieved from /opt/airflow/dags/5.3-orchestration copy.py
+[2023-09-18T13:37:37.477+0000] {logging_mixin.py:151} INFO - [2023-09-18T13:37:37.477+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:5.3-orchestration' as access control is unset.
+[2023-09-18T13:37:37.478+0000] {logging_mixin.py:151} INFO - [2023-09-18T13:37:37.477+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T13:37:37.503+0000] {logging_mixin.py:151} INFO - [2023-09-18T13:37:37.502+0000] {dag.py:3696} INFO - Setting next_dagrun for 5.3-orchestration to 2023-09-01T00:00:00+00:00, run_after=2023-10-01T00:00:00+00:00
+[2023-09-18T13:37:37.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/5.3-orchestration copy.py took 0.216 seconds

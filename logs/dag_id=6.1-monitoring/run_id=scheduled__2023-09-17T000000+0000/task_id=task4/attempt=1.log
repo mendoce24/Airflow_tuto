@@ -1,0 +1,13 @@
+[2023-09-18T13:55:32.330+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 6.1-monitoring.task4 scheduled__2023-09-17T00:00:00+00:00 [queued]>
+[2023-09-18T13:55:32.341+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 6.1-monitoring.task4 scheduled__2023-09-17T00:00:00+00:00 [queued]>
+[2023-09-18T13:55:32.342+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-18T13:55:32.357+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): task4> on 2023-09-17 00:00:00+00:00
+[2023-09-18T13:55:32.363+0000] {standard_task_runner.py:57} INFO - Started process 5373 to run task
+[2023-09-18T13:55:32.367+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '6.1-monitoring', 'task4', 'scheduled__2023-09-17T00:00:00+00:00', '--job-id', '478', '--raw', '--subdir', 'DAGS_FOLDER/6.1-monitoring.py', '--cfg-path', '/tmp/tmp7xjc_x8m']
+[2023-09-18T13:55:32.369+0000] {standard_task_runner.py:85} INFO - Job 478: Subtask task4
+[2023-09-18T13:55:32.422+0000] {task_command.py:415} INFO - Running <TaskInstance: 6.1-monitoring.task4 scheduled__2023-09-17T00:00:00+00:00 [running]> on host e891a57bf0af
+[2023-09-18T13:55:32.516+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='6.1-monitoring' AIRFLOW_CTX_TASK_ID='task4' AIRFLOW_CTX_EXECUTION_DATE='2023-09-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-17T00:00:00+00:00'
+[2023-09-18T13:55:32.517+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-09-18T13:55:32.529+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=6.1-monitoring, task_id=task4, execution_date=20230917T000000, start_date=20230918T135532, end_date=20230918T135532
+[2023-09-18T13:55:32.580+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-18T13:55:32.605+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

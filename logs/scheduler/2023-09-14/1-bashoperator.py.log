@@ -1,0 +1,51 @@
+[2023-09-14T14:22:37.150+0000] {processor.py:157} INFO - Started process (PID=1142) to work on /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:22:37.151+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/1-bashoperator.py for tasks to queue
+[2023-09-14T14:22:37.152+0000] {logging_mixin.py:151} INFO - [2023-09-14T14:22:37.152+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:22:37.175+0000] {logging_mixin.py:151} INFO - [2023-09-14T14:22:37.169+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/1-bashoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/1-bashoperator.py", line 8
+    start
+    ^
+SyntaxError: invalid syntax
+[2023-09-14T14:22:37.177+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:22:37.202+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/1-bashoperator.py took 0.055 seconds
+[2023-09-14T14:23:07.433+0000] {processor.py:157} INFO - Started process (PID=1151) to work on /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:23:07.434+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/1-bashoperator.py for tasks to queue
+[2023-09-14T14:23:07.435+0000] {logging_mixin.py:151} INFO - [2023-09-14T14:23:07.434+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:23:07.450+0000] {logging_mixin.py:151} INFO - [2023-09-14T14:23:07.449+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/1-bashoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/1-bashoperator.py", line 8
+    start
+    ^
+SyntaxError: invalid syntax
+[2023-09-14T14:23:07.451+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:23:07.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/1-bashoperator.py took 0.048 seconds
+[2023-09-14T14:23:37.711+0000] {processor.py:157} INFO - Started process (PID=1160) to work on /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:23:37.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/1-bashoperator.py for tasks to queue
+[2023-09-14T14:23:37.713+0000] {logging_mixin.py:151} INFO - [2023-09-14T14:23:37.713+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:23:37.731+0000] {logging_mixin.py:151} INFO - [2023-09-14T14:23:37.730+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/1-bashoperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/1-bashoperator.py", line 8
+    start
+    ^
+SyntaxError: invalid syntax
+[2023-09-14T14:23:37.732+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/1-bashoperator.py
+[2023-09-14T14:23:37.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/1-bashoperator.py took 0.049 seconds

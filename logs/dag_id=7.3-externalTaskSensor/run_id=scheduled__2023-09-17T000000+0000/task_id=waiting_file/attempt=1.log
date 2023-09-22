@@ -1,0 +1,16 @@
+[2023-09-19T13:42:00.498+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 7.3-externalTaskSensor.waiting_file scheduled__2023-09-17T00:00:00+00:00 [queued]>
+[2023-09-19T13:42:00.507+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 7.3-externalTaskSensor.waiting_file scheduled__2023-09-17T00:00:00+00:00 [queued]>
+[2023-09-19T13:42:00.508+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-19T13:42:00.522+0000] {taskinstance.py:1380} INFO - Executing <Task(FileSensor): waiting_file> on 2023-09-17 00:00:00+00:00
+[2023-09-19T13:42:00.527+0000] {standard_task_runner.py:57} INFO - Started process 1847 to run task
+[2023-09-19T13:42:00.531+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '7.3-externalTaskSensor', 'waiting_file', 'scheduled__2023-09-17T00:00:00+00:00', '--job-id', '662', '--raw', '--subdir', 'DAGS_FOLDER/7.3-ExternalTaskSensor.py', '--cfg-path', '/tmp/tmp7r9dpclj']
+[2023-09-19T13:42:00.532+0000] {standard_task_runner.py:85} INFO - Job 662: Subtask waiting_file
+[2023-09-19T13:42:00.580+0000] {task_command.py:415} INFO - Running <TaskInstance: 7.3-externalTaskSensor.waiting_file scheduled__2023-09-17T00:00:00+00:00 [running]> on host e891a57bf0af
+[2023-09-19T13:42:00.663+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='7.3-externalTaskSensor' AIRFLOW_CTX_TASK_ID='waiting_file' AIRFLOW_CTX_EXECUTION_DATE='2023-09-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-17T00:00:00+00:00'
+[2023-09-19T13:42:00.671+0000] {base.py:73} INFO - Using connection ID 'fs_default' for task execution.
+[2023-09-19T13:42:00.672+0000] {filesystem.py:64} INFO - Poking for file /tmp/file.txt
+[2023-09-19T13:42:00.673+0000] {filesystem.py:69} INFO - Found File /tmp/file.txt last modified: 20230919134159
+[2023-09-19T13:42:00.674+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-09-19T13:42:00.684+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=7.3-externalTaskSensor, task_id=waiting_file, execution_date=20230917T000000, start_date=20230919T134200, end_date=20230919T134200
+[2023-09-19T13:42:00.705+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-19T13:42:00.732+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
