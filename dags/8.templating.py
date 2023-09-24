@@ -3,7 +3,10 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime
 
 templated_command = """
-{% for file in filenames %}
+{% for file in params.filenames %}
+    echo "{{ ds }}"
+    echo "{{ file }}"
+{% endfor %}
 """
 
 with DAG(
@@ -16,7 +19,7 @@ with DAG(
 
     t1 = BashOperator(task_id='task1',
                   bash_command= templated_command,
+                  params={"filenames": ["file1.txt", "file2.txt"]},
                   depends_on_past= True)
-
 
 t1
