@@ -1,0 +1,159 @@
+[2023-09-25T11:14:22.768+0000] {processor.py:157} INFO - Started process (PID=34) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:14:22.771+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:14:22.773+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:22.773+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:14:22.864+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:14:23.399+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:23.397+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-25T11:14:23.422+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:23.422+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-25T11:14:23.436+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:23.435+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-25T11:14:23.437+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:23.437+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:10-branching' as access control is unset.
+[2023-09-25T11:14:23.438+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:23.438+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:14:23.466+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:23.466+0000] {dag.py:2937} INFO - Creating ORM DAG for 10-branching
+[2023-09-25T11:14:23.490+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:23.490+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-09-25T11:14:23.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.759 seconds
+[2023-09-25T11:14:53.929+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:14:53.943+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:14:53.945+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:53.944+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:14:54.002+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:14:54.031+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:54.031+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:14:54.065+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:14:54.064+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-09-25T11:14:54.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.185 seconds
+[2023-09-25T11:15:24.425+0000] {processor.py:157} INFO - Started process (PID=81) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:15:24.426+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:15:24.427+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:15:24.427+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:15:24.474+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:15:24.495+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:15:24.495+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:15:24.516+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:15:24.516+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-09-25T11:15:24.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.116 seconds
+[2023-09-25T11:15:55.392+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:15:55.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:15:55.395+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:15:55.394+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:15:55.442+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:15:55.465+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:15:55.465+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:15:55.494+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:15:55.494+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-09-25T11:15:55.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.130 seconds
+[2023-09-25T11:16:26.345+0000] {processor.py:157} INFO - Started process (PID=126) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:16:26.347+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:16:26.348+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:16:26.348+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:16:26.398+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:16:26.427+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:16:26.427+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:16:26.452+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:16:26.452+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-09-25T11:16:26.479+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.137 seconds
+[2023-09-25T11:16:57.414+0000] {processor.py:157} INFO - Started process (PID=149) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:16:57.416+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:16:57.419+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:16:57.419+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:16:57.488+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:16:57.516+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:16:57.515+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:16:57.538+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:16:57.538+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-09-25T11:16:57.562+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.152 seconds
+[2023-09-25T11:17:28.464+0000] {processor.py:157} INFO - Started process (PID=172) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:17:28.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:17:28.467+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:17:28.467+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:17:28.517+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:17:28.539+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:17:28.539+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:17:28.561+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:17:28.561+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-09-25T11:17:28.591+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.130 seconds
+[2023-09-25T11:17:59.639+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:17:59.644+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:17:59.665+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:17:59.664+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:18:00.012+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:18:00.090+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:18:00.090+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:18:00.142+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:18:00.142+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-09-25T11:18:00.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.618 seconds
+[2023-09-25T11:18:30.662+0000] {processor.py:157} INFO - Started process (PID=228) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:18:30.665+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:18:30.667+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:18:30.666+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:18:30.728+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:18:30.771+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:18:30.771+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:18:30.814+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:18:30.814+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:18:30.846+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.190 seconds
+[2023-09-25T11:19:01.853+0000] {processor.py:157} INFO - Started process (PID=251) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:19:01.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:19:01.857+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:19:01.856+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:19:01.912+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:19:01.939+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:19:01.938+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:19:01.966+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:19:01.966+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:19:01.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.148 seconds
+[2023-09-25T11:19:32.669+0000] {processor.py:157} INFO - Started process (PID=274) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:19:32.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:19:32.673+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:19:32.672+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:19:32.732+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:19:32.758+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:19:32.757+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:19:32.784+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:19:32.784+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:19:32.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.150 seconds
+[2023-09-25T11:20:03.533+0000] {processor.py:157} INFO - Started process (PID=297) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:20:03.534+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:20:03.536+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:20:03.535+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:20:03.592+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:20:03.617+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:20:03.617+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:20:03.642+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:20:03.642+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:20:03.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.138 seconds
+[2023-09-25T11:20:34.620+0000] {processor.py:157} INFO - Started process (PID=320) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:20:34.623+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:20:34.627+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:20:34.626+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:20:34.690+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:20:34.724+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:20:34.723+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:20:34.759+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:20:34.759+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:20:34.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.174 seconds
+[2023-09-25T11:21:05.101+0000] {processor.py:157} INFO - Started process (PID=343) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:21:05.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:21:05.104+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:21:05.104+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:21:05.164+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:21:05.191+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:21:05.190+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:21:05.219+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:21:05.219+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:21:05.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.157 seconds
+[2023-09-25T11:21:35.588+0000] {processor.py:157} INFO - Started process (PID=366) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:21:35.590+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:21:35.591+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:21:35.591+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:21:35.645+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:21:35.675+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:21:35.675+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:21:35.703+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:21:35.703+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:21:35.735+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.151 seconds
+[2023-09-25T11:22:06.027+0000] {processor.py:157} INFO - Started process (PID=389) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:22:06.028+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:22:06.031+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:22:06.030+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:22:06.092+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:22:06.126+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:22:06.125+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:22:06.159+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:22:06.159+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:22:06.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.170 seconds
+[2023-09-25T11:22:36.749+0000] {processor.py:157} INFO - Started process (PID=412) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:22:36.750+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:22:36.751+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:22:36.751+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:22:36.804+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:22:36.830+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:22:36.830+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:22:36.856+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:22:36.856+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:22:36.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.146 seconds
+[2023-09-25T11:23:07.227+0000] {processor.py:157} INFO - Started process (PID=435) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:23:07.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:23:07.230+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:23:07.230+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:23:07.289+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:23:07.316+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:23:07.316+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:23:07.343+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:23:07.343+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:23:07.374+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.151 seconds
+[2023-09-25T11:23:37.662+0000] {processor.py:157} INFO - Started process (PID=458) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:23:37.664+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:23:37.667+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:23:37.666+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:23:37.719+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:23:37.742+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:23:37.742+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:23:37.771+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:23:37.771+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:23:37.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.138 seconds
+[2023-09-25T11:24:08.467+0000] {processor.py:157} INFO - Started process (PID=481) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:24:08.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:24:08.473+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:24:08.473+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:24:08.566+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:24:08.607+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:24:08.606+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:24:08.658+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:24:08.657+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:24:08.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.264 seconds
+[2023-09-25T11:24:38.917+0000] {processor.py:157} INFO - Started process (PID=504) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:24:38.918+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:24:38.920+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:24:38.919+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:24:38.969+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:24:38.993+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:24:38.993+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:24:39.018+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:24:39.018+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:24:39.045+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.134 seconds
+[2023-09-25T11:25:10.011+0000] {processor.py:157} INFO - Started process (PID=527) to work on /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:25:10.012+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/10-BranchPythonOperator.py for tasks to queue
+[2023-09-25T11:25:10.014+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:25:10.013+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:25:10.065+0000] {processor.py:839} INFO - DAG(s) dict_keys(['10-branching']) retrieved from /opt/airflow/dags/10-BranchPythonOperator.py
+[2023-09-25T11:25:10.090+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:25:10.090+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T11:25:10.115+0000] {logging_mixin.py:151} INFO - [2023-09-25T11:25:10.115+0000] {dag.py:3696} INFO - Setting next_dagrun for 10-branching to None, run_after=None
+[2023-09-25T11:25:10.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/10-BranchPythonOperator.py took 0.140 seconds
